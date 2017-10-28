@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tdweb:war exploded">
+    <output-path>$PROJECT_DIR$/target/com.tdeng</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tdweb" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/com.tdeng/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="tdweb/web/Web" />
+    </root>
+  </artifact>
+</component>
